@@ -15,8 +15,8 @@ app = {  # REQUIRED dict, must be named 'app'
         (0x105006, "Open", ["open .", Keycode.ENTER]),
         (0x930462, "Goto", [Keycode.COMMAND, "P"]),  # Go to file
         # 2nd row ----------
-        (0x483502, "< Tab", [Keycode.COMMAND, Keycode.CONTROL, Keycode.LEFT_ARROW]),
-        (0x483502, "Tab >", [Keycode.COMMAND, Keycode.CONTROL, Keycode.RIGHT_ARROW]),
+        (0x483502, "< Tab", [Keycode.COMMAND, Keycode.ALT, Keycode.LEFT_ARROW]),
+        (0x483502, "Tab >", [Keycode.COMMAND, Keycode.ALT, Keycode.RIGHT_ARROW]),
         (0x930462, "Cmd", [Keycode.COMMAND, Keycode.SHIFT, "P"]),  # Command Pallete
         # 3rd row ----------
         (0x082C57, "Status", ["git", " ", "status", Keycode.ENTER]),
